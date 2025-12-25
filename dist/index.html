@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rili-vite</title>
+    <link rel="modulepreload" crossorigin href="/assets/@vue-DgbHzdzK-BAPdziK1.js">
+    <link rel="modulepreload" crossorigin href="/assets/lodash-es-C-8JW18d-noI36jvI.js">
+    <link rel="modulepreload" crossorigin href="/assets/@vueuse-C4F-RBQi-BQbvCdO9.js">
+    <link rel="modulepreload" crossorigin href="/assets/@element-plus-BfY-XubT-P_kmThbp.js">
+    <link rel="modulepreload" crossorigin href="/assets/@popperjs-DB1lLFnh-DPtZj44l.js">
+    <link rel="modulepreload" crossorigin href="/assets/@ctrl-BuyEbX8F-yLz2rBx1.js">
+    <link rel="modulepreload" crossorigin href="/assets/dayjs-DVKSwKij-CT1LYHsK.js">
+    <link rel="modulepreload" crossorigin href="/assets/async-validator-Cp9QasH9-BlUEaIHI.js">
+    <link rel="modulepreload" crossorigin href="data:text/javascript;base64,dmFyIHM9TnVtYmVyLmlzTmFOfHxmdW5jdGlvbihyKXtyZXR1cm4gdHlwZW9mIHI9PSJudW1iZXIiJiZyIT09cn07ZnVuY3Rpb24gZihlLHIpe3JldHVybiEhKGU9PT1yfHxzKGUpJiZzKHIpKX1mdW5jdGlvbiBpKGUscil7aWYoZS5sZW5ndGghPT1yLmxlbmd0aClyZXR1cm4hMTtmb3IodmFyIHQ9MDt0PGUubGVuZ3RoO3QrKylpZighZihlW3RdLHJbdF0pKXJldHVybiExO3JldHVybiEwfWZ1bmN0aW9uIG8oZSxyKXtyPT09dm9pZCAwJiYocj1pKTt2YXIgdD1udWxsO2Z1bmN0aW9uIHUoKXtmb3IodmFyIG49W10sYT0wO2E8YXJndW1lbnRzLmxlbmd0aDthKyspblthXT1hcmd1bWVudHNbYV07aWYodCYmdC5sYXN0VGhpcz09PXRoaXMmJnIobix0Lmxhc3RBcmdzKSlyZXR1cm4gdC5sYXN0UmVzdWx0O3ZhciBsPWUuYXBwbHkodGhpcyxuKTtyZXR1cm4gdD17bGFzdFJlc3VsdDpsLGxhc3RBcmdzOm4sbGFzdFRoaXM6dGhpc30sbH1yZXR1cm4gdS5jbGVhcj1mdW5jdGlvbigpe3Q9bnVsbH0sdX1leHBvcnR7byBhcyBtfTsK">
+    <link rel="modulepreload" crossorigin href="data:text/javascript;base64,dmFyIGg9ITEsbyxsLGYsdSxkLEQsYyxzLHAsbSxiLHcseCxPLFg7ZnVuY3Rpb24gYSgpe2lmKCFoKXtoPSEwO3ZhciBlPW5hdmlnYXRvci51c2VyQWdlbnQsdD0vKD86TVNJRS4oXGQrXC5cZCspKXwoPzooPzpGaXJlZm94fEdyYW5QYXJhZGlzb3xJY2V3ZWFzZWwpLihcZCtcLlxkKykpfCg/Ok9wZXJhKD86LitWZXJzaW9uLnwuKShcZCtcLlxkKykpfCg/OkFwcGxlV2ViS2l0LihcZCsoPzpcLlxkKyk/KSl8KD86VHJpZGVudFwvXGQrXC5cZCsuKnJ2OihcZCtcLlxkKykpLy5leGVjKGUpLG49LyhNYWMgT1MgWCl8KFdpbmRvd3MpfChMaW51eCkvLmV4ZWMoZSk7aWYodz0vXGIoaVBob25lfGlQW2FvXWQpLy5leGVjKGUpLHg9L1xiKGlQW2FvXWQpLy5leGVjKGUpLG09L0FuZHJvaWQvaS5leGVjKGUpLE89L0ZCQU5cL1x3KzsvaS5leGVjKGUpLFg9L01vYmlsZS9pLmV4ZWMoZSksYj0hIS9XaW42NC8uZXhlYyhlKSx0KXtvPXRbMV0/cGFyc2VGbG9hdCh0WzFdKTp0WzVdP3BhcnNlRmxvYXQodFs1XSk6TmFOLG8mJmRvY3VtZW50JiZkb2N1bWVudC5kb2N1bWVudE1vZGUmJihvPWRvY3VtZW50LmRvY3VtZW50TW9kZSk7dmFyIHI9Lyg/OlRyaWRlbnRcLyhcZCsuXGQrKSkvLmV4ZWMoZSk7RD1yP3BhcnNlRmxvYXQoclsxXSkrNDpvLGw9dFsyXT9wYXJzZUZsb2F0KHRbMl0pOk5hTixmPXRbM10/cGFyc2VGbG9hdCh0WzNdKTpOYU4sdT10WzRdP3BhcnNlRmxvYXQodFs0XSk6TmFOLHU/KHQ9Lyg/OkNocm9tZVwvKFxkK1wuXGQrKSkvLmV4ZWMoZSksZD10JiZ0WzFdP3BhcnNlRmxvYXQodFsxXSk6TmFOKTpkPU5hTn1lbHNlIG89bD1mPWQ9dT1OYU47aWYobil7aWYoblsxXSl7dmFyIGk9Lyg/Ok1hYyBPUyBYIChcZCsoPzpbLl9dXGQrKT8pKS8uZXhlYyhlKTtjPWk/cGFyc2VGbG9hdChpWzFdLnJlcGxhY2UoIl8iLCIuIikpOiEwfWVsc2UgYz0hMTtzPSEhblsyXSxwPSEhblszXX1lbHNlIGM9cz1wPSExfX12YXIgdj17aWU6ZnVuY3Rpb24oKXtyZXR1cm4gYSgpfHxvfSxpZUNvbXBhdGliaWxpdHlNb2RlOmZ1bmN0aW9uKCl7cmV0dXJuIGEoKXx8RD5vfSxpZTY0OmZ1bmN0aW9uKCl7cmV0dXJuIHYuaWUoKSYmYn0sZmlyZWZveDpmdW5jdGlvbigpe3JldHVybiBhKCl8fGx9LG9wZXJhOmZ1bmN0aW9uKCl7cmV0dXJuIGEoKXx8Zn0sd2Via2l0OmZ1bmN0aW9uKCl7cmV0dXJuIGEoKXx8dX0sc2FmYXJpOmZ1bmN0aW9uKCl7cmV0dXJuIHYud2Via2l0KCl9LGNocm9tZTpmdW5jdGlvbigpe3JldHVybiBhKCl8fGR9LHdpbmRvd3M6ZnVuY3Rpb24oKXtyZXR1cm4gYSgpfHxzfSxvc3g6ZnVuY3Rpb24oKXtyZXR1cm4gYSgpfHxjfSxsaW51eDpmdW5jdGlvbigpe3JldHVybiBhKCl8fHB9LGlwaG9uZTpmdW5jdGlvbigpe3JldHVybiBhKCl8fHd9LG1vYmlsZTpmdW5jdGlvbigpe3JldHVybiBhKCl8fHd8fHh8fG18fFh9LG5hdGl2ZUFwcDpmdW5jdGlvbigpe3JldHVybiBhKCl8fE99LGFuZHJvaWQ6ZnVuY3Rpb24oKXtyZXR1cm4gYSgpfHxtfSxpcGFkOmZ1bmN0aW9uKCl7cmV0dXJuIGEoKXx8eH19LFM9dixJPSEhKHR5cGVvZiB3aW5kb3c8InUiJiZ3aW5kb3cuZG9jdW1lbnQmJndpbmRvdy5kb2N1bWVudC5jcmVhdGVFbGVtZW50KSxQPXtjYW5Vc2VET006SX0sQT1QLEU7QS5jYW5Vc2VET00mJihFPWRvY3VtZW50LmltcGxlbWVudGF0aW9uJiZkb2N1bWVudC5pbXBsZW1lbnRhdGlvbi5oYXNGZWF0dXJlJiZkb2N1bWVudC5pbXBsZW1lbnRhdGlvbi5oYXNGZWF0dXJlKCIiLCIiKSE9PSEwKTtmdW5jdGlvbiBUKGUsdCl7aWYoIUEuY2FuVXNlRE9NfHx0JiYhKCJhZGRFdmVudExpc3RlbmVyImluIGRvY3VtZW50KSlyZXR1cm4hMTt2YXIgbj0ib24iK2Uscj1uIGluIGRvY3VtZW50O2lmKCFyKXt2YXIgaT1kb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTtpLnNldEF0dHJpYnV0ZShuLCJyZXR1cm47Iikscj10eXBlb2YgaVtuXT09ImZ1bmN0aW9uIn1yZXR1cm4hciYmRSYmZT09PSJ3aGVlbCImJihyPWRvY3VtZW50LmltcGxlbWVudGF0aW9uLmhhc0ZlYXR1cmUoIkV2ZW50cy53aGVlbCIsIjMuMCIpKSxyfXZhciB5PVQsTj0xMCxNPTQwLEY9ODAwO2Z1bmN0aW9uIFkoZSl7dmFyIHQ9MCxuPTAscj0wLGk9MDtyZXR1cm4iZGV0YWlsImluIGUmJihuPWUuZGV0YWlsKSwid2hlZWxEZWx0YSJpbiBlJiYobj0tZS53aGVlbERlbHRhLzEyMCksIndoZWVsRGVsdGFZImluIGUmJihuPS1lLndoZWVsRGVsdGFZLzEyMCksIndoZWVsRGVsdGFYImluIGUmJih0PS1lLndoZWVsRGVsdGFYLzEyMCksImF4aXMiaW4gZSYmZS5heGlzPT09ZS5IT1JJWk9OVEFMX0FYSVMmJih0PW4sbj0wKSxyPXQqTixpPW4qTiwiZGVsdGFZImluIGUmJihpPWUuZGVsdGFZKSwiZGVsdGFYImluIGUmJihyPWUuZGVsdGFYKSwocnx8aSkmJmUuZGVsdGFNb2RlJiYoZS5kZWx0YU1vZGU9PTE/KHIqPU0saSo9TSk6KHIqPUYsaSo9RikpLHImJiF0JiYodD1yPDE/LTE6MSksaSYmIW4mJihuPWk8MT8tMToxKSx7c3Bpblg6dCxzcGluWTpuLHBpeGVsWDpyLHBpeGVsWTppfX1ZLmdldEV2ZW50VHlwZT1mdW5jdGlvbigpe3JldHVybiBTLmZpcmVmb3goKT8iRE9NTW91c2VTY3JvbGwiOnkoIndoZWVsIik/IndoZWVsIjoibW91c2V3aGVlbCJ9O3ZhciBVPVk7ZXhwb3J0e1UgYXMgWX07Cg==">
+    <link rel="modulepreload" crossorigin href="/assets/@floating-ui-BiT_2Uhe-DDbt_RGd.js">
+    <link rel="modulepreload" crossorigin href="/assets/element-plus-BQCXvAai-00usXzzG.js">
+    <link rel="modulepreload" crossorigin href="/assets/vue-router-CZoGHokl-C-KkskiB.js">
+    <script type="module" crossorigin src="/assets/index-qO0zSJxI.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DPj_8BQh.css">
+  </head>
+  <body>
+    <div id="app"></div>
+  </body>
+  <style>html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(
+              135deg, 
+              #a6bce8 0%, 
+              #ffc0c0 100%
+            ) !important;
+  color: #ffffff !important;
+  font-family: SimHei;
+  font-size: 20px;
+}</style>
+</html>
